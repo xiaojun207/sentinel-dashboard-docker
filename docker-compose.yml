@@ -1,7 +1,7 @@
 version: '3'
 services:
     sentinel-dashboard:
-      image: cike/sentinel-dashboard:latest
+      image: xiaojun207/sentinel-dashboard:latest
       container_name: sentinel-dashboard
       restart: always
       ports:

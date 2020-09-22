@@ -1,5 +1,5 @@
 FROM java:alpine
-MAINTAINER zhoutaoo "zhoutaoo@foxmail.com"
+MAINTAINER xiaojun207 "xiaojun207@126.com"
 
 # set environment
 ENV BASE_DIR="/home/sentinel" \
