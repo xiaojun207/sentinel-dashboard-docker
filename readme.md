@@ -1,6 +1,6 @@
 # Sentinel Dashboard Docker
 
-[Docker Pulls](https://hub.docker.com/r/xiaojun207/sentinel-dashboard-docker)
+[Docker Pulls](https://hub.docker.com/r/xiaojun207/sentinel-dashboard)
 
 本项目是Alibaba Sentinel Dashboard [Sentinel](https://github.com/alibaba/Sentinel).
 
@@ -25,13 +25,13 @@ Run the following command：
 * Build Image
   ```sh
   cd build
-  docker build -t xiaojun207/sentinel-dashboard-docker .
+  docker build -t xiaojun207/sentinel-dashboard .
   ```
 
 * Run With docker
 
 ```sh
-docker run -p 8021:8021 -it xiaojun207/sentinel-dashboard-docker
+docker run -p 8021:8021 -it xiaojun207/sentinel-dashboard
 ```
 
 * Run With docker-compose
