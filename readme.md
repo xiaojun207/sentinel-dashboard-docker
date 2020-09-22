@@ -19,7 +19,7 @@ Run the following command：
 * Clone project
 
   ```sh
-  git clone https://github.com/zhoutaoo/sentinel-dashboard-docker.git
+  git clone https://github.com/xiaojun207/sentinel-dashboard-docker.git
   ```
 
 * Build Image
