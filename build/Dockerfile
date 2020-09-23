@@ -19,7 +19,7 @@ RUN set -x \
     && wget https://github.com/alibaba/Sentinel/releases/download/v${SENTINEL_DASHBOARD_VERSION}/sentinel-dashboard-${SENTINEL_DASHBOARD_VERSION}.jar -P $BASE_DIR \
     && ln -snf /usr/share/zoneinfo/$TIME_ZONE /etc/localtime && echo '$TIME_ZONE' > /etc/timezone
 
-ADD bin/docker-entrypoint.sh bin/docker-entrypoint.sh
+ADD build/bin/docker-entrypoint.sh bin/docker-entrypoint.sh
 
 # set startup log dir
 RUN mkdir -p logs \
